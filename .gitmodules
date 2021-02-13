@@ -1,0 +1,4 @@
+[submodule "submodule/portscanner"]
+	path = submodule/portscanner
+	url = https://github.com/overcrook/portscanner
+	branch = master
