@@ -6,7 +6,7 @@ module1 = Extension('portscan',
                     include_dirs = ['/usr/local/include', 'submodule/portscanner/include'],
                     libraries = ['portscanner'],
                     library_dirs = ['/usr/local/lib', 'submodule/portscanner/build'],
-                    sources = ['python_portscan.c'])
+                    sources = ['python_portscan.c', 'portscan_result.c'])
 
 setup (name = 'Portscanner',
        version = '1.0',
