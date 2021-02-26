@@ -101,5 +101,8 @@ PyInit_portscan(void)
 	if (register_portscan_result(mod))
 		return NULL;
 
+	if (register_portscan_context(mod))
+		return NULL;
+
 	return mod;
 }
